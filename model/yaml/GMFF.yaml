@@ -1,0 +1,21 @@
+# Parameters
+nh: 1
+nl: 2
+pl: 7                  # feature map size
+dl: 1024                # Number of hidden layer neurons
+backbone: resnet50
+
+Feature pyramid:
+  # [from, number, module, args[ch_in, ch_out, kernel_size, strides]]
+  [[0, 2, CEMA, [512, 512, False]],
+   [-1, 1, Conv, [512, 1024, 1, 2]],
+
+   [1, 2, CEMA, [1024, 1024, False]],
+   [[-1, 2], 1, Add, []],
+   [-1, 1, Conv, [1024, 2048, 1, 2]],
+
+   [2, 2, CEMA, [2048, 2048, False]],
+   [[-1, 5], 1, Add, []],
+   [-1, 1, Conv, [2048, 1024, 1, 2]],
+   [-1, 1, Head, [1024, nh, nl, pl, dl]],
+  ]
