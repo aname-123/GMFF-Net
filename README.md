@@ -3,7 +3,7 @@ we propose GMFFNet (Gaze Multi-scale Feature Fusion Network), a novel architectu
 
 
 * Download MPIIFaceGaze dataset from [here](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/its-written-all-over-your-face-full-face-appearance-based-gaze-estimation)
-* Download Gaze360 dataset from [here](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/its-written-all-over-your-face-full-face-appearance-based-gaze-estimation. Gaze360 dataset is available at http://gaze360.csail.mit.edu.)
+* Download Gaze360 dataset from [here](https://gaze360.csail.mit.edu/download.php)
 
 Store the dataset to datasets/FaceBased/MPIIFaceGaze or Gaze360.
 
