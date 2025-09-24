@@ -1,5 +1,5 @@
-# GMFFNet: An Appearance-Based Gaze Estimation Method Using Multi-scale Feature Fusion
-* Gaze estimation is a vital technology for predicting the direction or specific target of an individual's gaze. We propose GMFFNet (Gaze Multi-Scale Feature Fusion Network), a framework designed to regress gaze directions, based on facial image appearance. Its innovation lies in integrating multi-scale hierarchical feature interaction with an adaptive attention mechanism (CEMA), which collectively enables robust gaze estimation.
+# GMFFNet: A Gaze Estimation Method
+* Gaze estimation is a vital technology for predicting the direction or specific target of an individual's gaze. We propose GMFFNet, a framework designed to regress gaze directions, based on facial image appearance. Its innovation lies in integrating multi-scale hierarchical feature interaction with an adaptive attention mechanism (CEMA), which collectively enables robust gaze estimation.
 
 ![GMFFNet](https://github.com/aname-123/GMFF-Net/blob/main/Figure/Fig1.png)
 
